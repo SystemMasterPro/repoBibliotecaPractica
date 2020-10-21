@@ -1,4 +1,4 @@
-<?php
+
 //En el destino colocar el correo alque quieres que lleguen los datos del contacto de tu formulario
 <?php
 $nombre = $_POST['name'];
@@ -24,4 +24,3 @@ mail($para, $asunto, utf8_decode($mensaje), $header);
 header("Location:index.html");
 ?>
 //Esto es opcional, aqui pueden colocar un mensaje de "enviado correctamente" o redireccionarlo a algun lugar
-?>
