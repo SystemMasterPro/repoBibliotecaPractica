@@ -16,7 +16,7 @@ $mensaje .= "Mensaje: " . $_POST['message'] . " \r\n";
 $mensaje .= "Enviado el " . date('d/m/Y', time()) . " \r\n";
 $mensaje .= "Y su numero es el ". $_POST['phone'];
 
-$para = 'ignaciobluuweb@gmail.com';
+$para = 'richardjimenez.9641@gmail.com';
 $asunto = 'RAPIDS';
 
 mail($para, $asunto, utf8_decode($mensaje), $header);
