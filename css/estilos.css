@@ -112,6 +112,41 @@ body {
     animation: none;
 }
 
+#redondo{
+    border-radius: 10px;
+}
+#centro{
+    text-align: center;
+}
+
+
+/* VISITAS */
+
+.stat {
+	/* padding:20px 5px; */
+	/* background:#b6c0ca; */
+	text-align:center;
+	float:left;
+	margin-left:50px;
+    width:100px;
+}
+.stat-count {
+	font-size: 51px;
+	font-weight: normal;
+	letter-spacing: -0.02em;
+	line-height: 1.2;
+	margin-bottom: 20px;
+	overflow:hidden;
+	font-family:"Georgia", Courier, monospace;
+	padding: 0;
+	position: relative;
+}
+.stat-detail {
+	color:#fff;
+	padding-top:10px;
+	font: italic 1.3rem/1.75 "Georgia", Courier, monospace;
+}
+
 
 @keyframes parpadeo  {
     0%, 41%, 45%, 47%, 49.5%, 100%  { 
