@@ -36,6 +36,7 @@ function bienvenida() {
   imageWidth: 400,
   imageHeight: 200,
   imageAlt: 'Custom image',
+  footer:'<a type="button" class="btn btn-success btn-block" href="https://api.whatsapp.com/send?phone=+593961341616&text=Necesito Contactarlo" target="_blank">Escribir a WhatsApp</a>'
 })
 }
 
@@ -47,7 +48,7 @@ function reportes() {
   imageWidth: 400,
   imageHeight: 200,
   imageAlt: 'Custom image',
-  footer:'<a href="https://api.whatsapp.com/send?phone=+593961341616&text=Necesito Ayuda" target="_blank">Escribir a WhatsApp</a>'
+  footer:'<a type="button" class="btn btn-success btn-block" href="https://api.whatsapp.com/send?phone=+593961341616&text=Necesito Ayuda" target="_blank">Escribir a WhatsApp</a>'
 })
 }
 
